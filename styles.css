@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(9, 9, 19);
+    color: aliceblue;
+}
+
+
+.head{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    
+    margin: 20px 30px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.name{
+    color: white;
+    font-weight: 400;
+}
+.sign-in{
+    color: rgb(240, 211, 172);
+    font-weight: 200;
+}
+.body-page{
+    
+    padding-top: 150px;
+    
+    
+}
+.body-page h1{
+    text-align: center;
+    font-size: 72px;
+    font-weight:700;
+    font-family:Arial, sans-serif;
+    margin-bottom: 10px;
+    
+}
+.body-page h2{
+    
+    margin: 0 auto 0;
+    text-align: center;
+    font-size: 30px;
+    color: antiquewhite;
+    font-weight: 100;
+    font-family:Arial, sans-serif;
+    width: 50%;
+    line-height: 1.5;
+}
+.switch {
+    margin: 30px auto 0;
+    text-align: center;
+    background-color: rgba(60, 58, 58, 0.5); 
+    width: fit-content;
+    height: auto;
+    border-radius: 15px;
+    border-style: none;
+    padding: 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border-style: none;
+    color: rgb(180, 181, 181);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.month, .year {
+    padding: 10px 45px;
+    background-color: transparent;
+}
+
+.year.active, .month.active {
+    background-color: rgba(95, 94, 93, 0.5);
+    color: rgb(233, 236, 236);
+}
+
+.year, .month {
+    background-color: transparent;
+    color: rgb(180, 181, 181); 
+}
+
+.card-year,.card-month{  
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 75px;
+    place-items: center;
+    gap:30px;
+}
+.card-year{
+    position: relative;
+}
+
+.hobby{
+    width: 100%;
+    height: auto;
+    background-color: rgba(56, 55, 55,0.4);
+    padding: 20px ;
+    border-radius: 15px;
+    border: none;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.hobby h3{
+    margin-top: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.hobby .description{
+    width: 80%;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(210, 208, 208);
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.hobby .price{
+    font-size: 72px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hobby .date{
+    font-size: 21px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.hobby .sub{
+    width: 100%;
+    color: rgba(21, 18, 18,0.8);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    border-radius: 5px;
+    
+}
+
+
+
